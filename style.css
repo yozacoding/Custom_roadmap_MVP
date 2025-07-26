@@ -19,6 +19,15 @@ header {
   text-align: center;
 }
 
+.hero-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
 h1 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
