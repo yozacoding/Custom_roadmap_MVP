@@ -26,6 +26,16 @@ header {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 1.5rem;
+  display: block;
+}
+
+/* Fallback styling when image doesn't load */
+.hero-image:before {
+  content: '';
+  display: block;
+  min-height: 200px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
 }
 
 h1 {
