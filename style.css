@@ -3,7 +3,6 @@ html {
   width: 100%;
 }
 
-/* General styles */
 body {
   font-family: 'Helvetica Neue', sans-serif;
   line-height: 1.6;
@@ -19,18 +18,24 @@ header {
   text-align: center;
 }
 
-.hero-image {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 1.5rem;
+.hero-section {
+  background-image: url(https://images.unsplash.com/photo-1553044707-b710ee53ffbd?q=80&w=1205&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); 
+  background-size: cover;
+  background-position: center top 45%;
+  background-repeat: no-repeat;
+  padding: 1em 2em 4em 2em;
+  color: black;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
+  border-radius: 0.2rem; 
+}
+
+.hero-content {
+  margin-top: 0.2em;
 }
 
 h1 {
   font-size: 2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.0rem;
   text-decoration: underline;
 }
 
@@ -52,7 +57,7 @@ p {
   max-width: 600px;
   margin: 0 auto;
   font-size: 1rem;
-  color: #444;
+  color: black;
   margin-top: 0.2rem;
 }
 
@@ -60,10 +65,11 @@ main {
   padding: 2rem 1rem;
   max-width: 800px;
   margin: auto;
+  padding-top: 0.3rem;
 }
 
 section {
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.2rem;
 }
 
 ul, ol {
