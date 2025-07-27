@@ -3,7 +3,6 @@ html {
   width: 100%;
 }
 
-/* General styles */
 body {
   font-family: 'Helvetica Neue', sans-serif;
   line-height: 1.6;
@@ -19,18 +18,31 @@ header {
   text-align: center;
 }
 
-.hero-image {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 1.5rem;
+.hero-section {
+  background-image: url('https://images.unsplash.com/photo-1553044707-b710ee53ffbd?q=80&w=1205&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fHx8fA%3D%3D');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 40%; /* Adjust focal point */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0.8em 2em 4em 2em;
+  color: black;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
+  border-radius: 0.2rem;
+  text-align: center;
+}
+
+.hero-content {
+  margin-top: 0.2em;
 }
 
 h1 {
   font-size: 2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.0rem;
   text-decoration: underline;
 }
 
@@ -52,7 +64,7 @@ p {
   max-width: 600px;
   margin: 0 auto;
   font-size: 1rem;
-  color: #444;
+  color: black;
   margin-top: 0.2rem;
 }
 
@@ -60,10 +72,11 @@ main {
   padding: 2rem 1rem;
   max-width: 800px;
   margin: auto;
+  padding-top: 0.3rem;
 }
 
 section {
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.2rem;
 }
 
 ul, ol {
@@ -90,6 +103,11 @@ blockquote {
   text-align: center;
 }
 
+.cta h2 {
+  margin-top: 0.2rem;       
+  padding-top: 0.2rem;      
+}
+
 a.button {
   display: inline-block;
   padding: 0.75rem 1.25rem;
@@ -114,4 +132,40 @@ footer {
 
 .tight-spacing {
   margin: 0.1em 0;
+}
+
+@media (max-width: 430px) {
+  .hero-section {
+    background-position: center 40%;
+    background-size: cover;
+    padding: 2em 1em;
+  }
+
+  .hero-section h1 {
+    font-size: 2rem;
+    transform: translateY(12px);
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-section {
+    background-position: top 30%;
+    padding-top: 8em;
+    padding-bottom: 6em;
+  }
+  .hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 1.0rem;
+    margin-top: 0;
+    transform: translateY(-50px);
+  }
+  .hero-section p {
+    transform: translateY(-50px);
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
 }
