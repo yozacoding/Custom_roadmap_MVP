@@ -134,6 +134,16 @@ footer {
   margin: 0.1em 0;
 }
 
+.footer-link, .email{
+  color: inherit;
+  text-decoration: underline;
+}
+
+.footer-link:hover, .email:hover {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
 @media (max-width: 430px) {
   .hero-section {
     background-position: center 40%;
