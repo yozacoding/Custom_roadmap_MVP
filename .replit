@@ -32,10 +32,10 @@ author = "agent"
 
 [[workflows.workflow.tasks]]
 task = "workflow.run"
-args = "Main"
+args = "Website"
 
 [[workflows.workflow]]
-name = "Main"
+name = "Website"
 author = "agent"
 
 [[workflows.workflow.tasks]]
@@ -53,14 +53,6 @@ externalPort = 80
 [[ports]]
 localPort = 5000
 externalPort = 80
-
-[[ports]]
-localPort = 36585
-externalPort = 3000
-
-[[ports]]
-localPort = 42071
-externalPort = 3001
 
 [agent]
 expertMode = true
