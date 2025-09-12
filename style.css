@@ -38,6 +38,7 @@ header {
 
 .hero-content {
   margin-top: 0.2em;
+  max-width: 100ch;
 }
 
 h1 {
