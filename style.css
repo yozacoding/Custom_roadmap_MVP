@@ -222,7 +222,7 @@ footer {
    and (device-height: 812px) 
    and (-webkit-device-pixel-ratio: 3) {
    .hero-section {
-     background-image: url('/assets/images/hero-background@2x.jpg');
+     background-image: url('hero.jpg');
     background-position: center 30%;
   }
 }
