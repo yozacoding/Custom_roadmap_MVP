@@ -209,3 +209,20 @@ footer {
     margin-top: 1.0rem;
   }
 }
+  
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+     only screen and (min-resolution: 192dpi) {
+.hero-section {
+    background-image: url('hero.jpg');
+  } 
+}
+
+@media only screen 
+   and (device-width: 375px) 
+   and (device-height: 812px) 
+   and (-webkit-device-pixel-ratio: 3) {
+   .hero-section {
+     background-image: url('/assets/images/hero-background@2x.jpg');
+    background-position: center 30%;
+  }
+}
