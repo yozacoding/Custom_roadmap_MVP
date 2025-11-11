@@ -14,8 +14,20 @@ body {
 
 header {
   background-color: #eef6f9;
-  padding: 2rem 1rem;
+  padding: 1.0rem 1.0rem;
   text-align: center;
+}
+
+.logo {
+  margin-bottom: 1.0rem;
+  text-align: center;
+}
+
+.logo img {
+  max-height: 250px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-section {
@@ -26,10 +38,10 @@ header {
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 
-  padding: 0.8em 2em 4em 2em;
+  padding: 1.0em 2.0em 4.0em 2.0em;
   color: black;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
   border-radius: 0.2rem;
@@ -37,12 +49,13 @@ header {
 }
 
 .hero-content {
-  margin-top: 0.2em;
+  margin-top: 5.0rem;
   max-width: 60ch;
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.0rem;
+  margin-top: 1.5rem;
   margin-bottom: 1.0rem;
   text-decoration: underline;
 }
@@ -52,7 +65,7 @@ h2 {
 }
 
 p {
-  margin: 0.1em 0 1em;
+  margin: 0.1em 0 1.0em;
 }
 
 .subtitle {
@@ -64,13 +77,13 @@ p {
 .intro {
   max-width: 600px;
   margin: 0 auto;
-  font-size: 1rem;
+  font-size: 1.0rem;
   color: black;
   margin-top: 0.2rem;
 }
 
 main {
-  padding: 2rem 1rem;
+  padding: 2.0rem 1.0rem;
   max-width: 800px;
   margin: auto;
   padding-top: 0.3rem;
@@ -91,8 +104,8 @@ ol li {
 }
 
 blockquote {
-  margin: 1rem 0;
-  padding-left: 1rem;
+  margin: 1.0rem 0;
+  padding-left: 1.0rem;
   border-left: 4px solid #ccc;
   color: #555;
 }
@@ -114,7 +127,7 @@ blockquote {
 a.button {
   display: inline-block;
   padding: 0.75rem 1.25rem;
-  margin: 1rem 0;
+  margin: 1.0rem 0;
   background-color: #4caf50;
   color: white;
   text-decoration: none;
@@ -128,7 +141,7 @@ a.button:hover {
 
 footer {
   text-align: center;
-  padding: 1rem;
+  padding: 1.0rem;
   font-size: 0.9rem;
   color: #888;
 }
@@ -153,16 +166,16 @@ footer {
   .hero-section {
     background-position: center 40%;
     background-size: cover;
-    padding: 2em 1em;
+    padding: 2.0em 1.0em;
   }
 
   .hero-section h1 {
-    font-size: 2rem;
+    font-size: 2.0rem;
     transform: translateY(12px);
   }
 
   .hero-section p {
-    font-size: 1rem;
+    font-size: 1.0rem;
   }
 }
 
@@ -173,16 +186,16 @@ footer {
     padding-bottom: 6em;
   }
 
-  .hero-section h1 {
+  .h1 {
     font-size: 3rem;
-    margin-bottom: 1.0rem;
-    margin-top: 0;
+    margin-bottom: 2.0rem;
+    margin-top: 1.0rem;
     transform: translateY(-50px);
   }
-
+ 
   .hero-section p {
-    transform: translateY(-50px);
+    transform: translateY(-5px);
     font-size: 1.2rem;
-    margin-top: 0.5rem;
+    margin-top: 1.0rem;
   }
 }
